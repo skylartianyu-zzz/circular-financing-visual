@@ -1,0 +1,310 @@
+{
+  "nodes": [
+    {
+      "id": "nvidia",
+      "size": 3
+    },
+    {
+      "id": "amazon",
+      "size": 1
+    },
+    {
+      "id": "oracle",
+      "size": 1
+    },
+    {
+      "id": "microsoft",
+      "size": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "amazon",
+      "target": "oracle",
+      "date": "unknown",
+      "text": "Oracle and Amazon Web Services, Inc. (AWS) today announced the launch of Oracle Database@AWS, a new offering that allows customers to access Oracle Autonomous Database on dedicated infrastructure and Oracle Exadata Database Service within AWS.",
+      "source_file": "Oracle and Amazon Web Services Anno.txt",
+      "confidence": 0.8
+    },
+    {
+      "source": "oracle",
+      "target": "amazon",
+      "date": "unknown",
+      "text": "With Oracle Cloud Infrastructure deployed inside of AWS datacenters, we can provide customers with the best possible database and network performance.",
+      "source_file": "Oracle and Amazon Web Services Anno.txt",
+      "confidence": 0.7
+    },
+    {
+      "source": "oracle",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "The Solstice system will feature a record-breaking 100,000 NVIDIA Blackwell GPUs and support the DOE’s mission of developing AI capabilities... Another system, Equinox, will include 10,000 NVIDIA Blackwell GPUs... Both systems will be interconnected by NVIDIA networking and deliver a combined 2,200 exaflops of AI performance.",
+      "source_file": "NVIDIA and Oracle to Build US Depar.txt",
+      "confidence": 0.95
+    },
+    {
+      "source": "nvidia",
+      "target": "oracle",
+      "date": "unknown",
+      "text": "Together with Oracle, we’re building the Department of Energy’s largest supercomputer that will serve as America’s engine for discovery, giving researchers access to the most advanced AI infrastructure...",
+      "source_file": "NVIDIA and Oracle to Build US Depar.txt",
+      "confidence": 0.7
+    },
+    {
+      "source": "amazon",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "Expanded collaborations with AWS, Google Cloud, Microsoft and Oracle to advance generative AI innovation.",
+      "source_file": "NVIDIA Announces Financial Results-1Q25.txt",
+      "confidence": 0.7
+    },
+    {
+      "source": "microsoft",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "Expanded collaborations with AWS, Google Cloud, Microsoft and Oracle to advance generative AI innovation.",
+      "source_file": "NVIDIA Announces Financial Results-1Q25.txt",
+      "confidence": 0.7
+    },
+    {
+      "source": "oracle",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "Expanded collaborations with AWS, Google Cloud, Microsoft and Oracle to advance generative AI innovation.",
+      "source_file": "NVIDIA Announces Financial Results-1Q25.txt",
+      "confidence": 0.7
+    },
+    {
+      "source": "amazon",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "Revealed that NVIDIA Blackwell cloud instances are now available on AWS, Google Cloud, Microsoft Azure and Oracle Cloud Infrastructure.",
+      "source_file": "NVIDIA Announces Financial Results-1Q26.txt",
+      "confidence": 0.8
+    },
+    {
+      "source": "microsoft",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "Revealed that NVIDIA Blackwell cloud instances are now available on AWS, Google Cloud, Microsoft Azure and Oracle Cloud Infrastructure.",
+      "source_file": "NVIDIA Announces Financial Results-1Q26.txt",
+      "confidence": 0.8
+    },
+    {
+      "source": "oracle",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "Revealed that NVIDIA Blackwell cloud instances are now available on AWS, Google Cloud, Microsoft Azure and Oracle Cloud Infrastructure.",
+      "source_file": "NVIDIA Announces Financial Results-1Q26.txt",
+      "confidence": 0.8
+    },
+    {
+      "source": "nvidia",
+      "target": "oracle",
+      "date": "unknown",
+      "text": "Announced integration between NVIDIA accelerated computing and inference software with Oracle’s AI infrastructure.",
+      "source_file": "NVIDIA Announces Financial Results-1Q26.txt",
+      "confidence": 0.7
+    },
+    {
+      "source": "amazon",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "H20 excess inventory and purchase obligation charges 4,538",
+      "source_file": "NVIDIA Announces Financial Results-1Q26.txt",
+      "confidence": 0.7
+    },
+    {
+      "source": "microsoft",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "H20 excess inventory and purchase obligation charges 4,538",
+      "source_file": "NVIDIA Announces Financial Results-1Q26.txt",
+      "confidence": 0.7
+    },
+    {
+      "source": "oracle",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "H20 excess inventory and purchase obligation charges 4,538",
+      "source_file": "NVIDIA Announces Financial Results-1Q26.txt",
+      "confidence": 0.7
+    },
+    {
+      "source": "amazon",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "Reported broad adoption of the NVIDIA Spectrum-X Ethernet networking platform by cloud service providers, GPU cloud providers and enterprises, as well as partners incorporating it into their offerings.",
+      "source_file": "NVIDIA Announces Financial Results-2Q25.txt",
+      "confidence": 0.7
+    },
+    {
+      "source": "microsoft",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "Reported broad adoption of the NVIDIA Spectrum-X Ethernet networking platform by cloud service providers, GPU cloud providers and enterprises, as well as partners incorporating it into their offerings.",
+      "source_file": "NVIDIA Announces Financial Results-2Q25.txt",
+      "confidence": 0.7
+    },
+    {
+      "source": "oracle",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "Reported broad adoption of the NVIDIA Spectrum-X Ethernet networking platform by cloud service providers, GPU cloud providers and enterprises, as well as partners incorporating it into their offerings.",
+      "source_file": "NVIDIA Announces Financial Results-2Q25.txt",
+      "confidence": 0.7
+    },
+    {
+      "source": "amazon",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "Revealed that cloud service providers AWS, CoreWeave, Google Cloud Platform (GCP), Microsoft Azure and Oracle Cloud Infrastructure (OCI) are bringing NVIDIA GB200 systems to cloud regions around the world to meet surging customer demand for AI.",
+      "source_file": "NVIDIA Announces Financial Results-4Q25.txt",
+      "confidence": 0.9
+    },
+    {
+      "source": "microsoft",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "Revealed that cloud service providers AWS, CoreWeave, Google Cloud Platform (GCP), Microsoft Azure and Oracle Cloud Infrastructure (OCI) are bringing NVIDIA GB200 systems to cloud regions around the world to meet surging customer demand for AI.",
+      "source_file": "NVIDIA Announces Financial Results-4Q25.txt",
+      "confidence": 0.9
+    },
+    {
+      "source": "oracle",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "Revealed that cloud service providers AWS, CoreWeave, Google Cloud Platform (GCP), Microsoft Azure and Oracle Cloud Infrastructure (OCI) are bringing NVIDIA GB200 systems to cloud regions around the world to meet surging customer demand for AI.",
+      "source_file": "NVIDIA Announces Financial Results-4Q25.txt",
+      "confidence": 0.9
+    },
+    {
+      "source": "amazon",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "Partnered with AWS to make the NVIDIA DGX Cloud AI computing platform and NVIDIA NIM microservices available through AWS Marketplace.",
+      "source_file": "NVIDIA Announces Financial Results-4Q25.txt",
+      "confidence": 0.8
+    },
+    {
+      "source": "microsoft",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "NVIDIA today announced that it is integrating its NVIDIA AI Enterprise software into Microsoft’s Azure Machine Learning to help enterprises accelerate their AI initiatives. ... NVIDIA AI Enterprise on Azure Machine Learning will also provide access to the highest-performance NVIDIA accelerated computing resources to speed the training and inference of AI models.",
+      "source_file": "NVIDIA Collaborates With Microsoft.txt",
+      "confidence": 0.8
+    },
+    {
+      "source": "microsoft",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "NVIDIA AI Enterprise is also available on Azure Marketplace, providing businesses worldwide with expanded options for fully secure and supported AI development and deployment.",
+      "source_file": "NVIDIA Collaborates With Microsoft.txt",
+      "confidence": 0.7
+    },
+    {
+      "source": "microsoft",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "Additionally, the NVIDIA Omniverse Cloud platform-as-a-service is now available on Microsoft Azure as a private offer for enterprises.",
+      "source_file": "NVIDIA Collaborates With Microsoft.txt",
+      "confidence": 0.7
+    },
+    {
+      "source": "microsoft",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "Azure’s cloud-based AI supercomputer includes powerful and scalable ND- and NC-series virtual machines optimized for AI distributed training and inference. It is the first public cloud to incorporate NVIDIA’s advanced AI stack, adding tens of thousands of NVIDIA A100 and H100 GPUs, NVIDIA Quantum-2 400Gb/s InfiniBand networking and the NVIDIA AI Enterprise software suite to its platform.",
+      "source_file": "NVIDIA Teams With Microsoft to Buil.txt",
+      "confidence": 0.95
+    },
+    {
+      "source": "nvidia",
+      "target": "microsoft",
+      "date": "unknown",
+      "text": "As part of the collaboration, NVIDIA will utilize Azure’s scalable virtual machine instances to research and further accelerate advances in generative AI, a rapidly emerging area of AI in which foundational models like Megatron Turing NLG 530B are the basis for unsupervised, self-learning algorithms to create new text, code, digital images, video or audio.",
+      "source_file": "NVIDIA Teams With Microsoft to Buil.txt",
+      "confidence": 0.9
+    },
+    {
+      "source": "microsoft",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "This partnership complements the deep work OpenAI and NVIDIA are already doing with a broad network of collaborators, including Microsoft, Oracle, SoftBank and Stargate partners, focused on building the world’s most advanced AI infrastructure.",
+      "source_file": "OpenAI and NVIDIA Announce Strategi.txt",
+      "confidence": 0.5
+    },
+    {
+      "source": "oracle",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "This partnership complements the deep work OpenAI and NVIDIA are already doing with a broad network of collaborators, including Microsoft, Oracle, SoftBank and Stargate partners, focused on building the world’s most advanced AI infrastructure.",
+      "source_file": "OpenAI and NVIDIA Announce Strategi.txt",
+      "confidence": 0.5
+    },
+    {
+      "source": "oracle",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "Oracle is the first public cloud provider to support the NVIDIA HGX-2TM platform on Oracle Cloud Infrastructure, to meet the needs of the next generation of analytics, machine learning and AI.",
+      "source_file": "Oracle and NVIDIA Bring the Power o.txt",
+      "confidence": 0.8
+    },
+    {
+      "source": "oracle",
+      "target": "nvidia",
+      "date": "unknown",
+      "text": "Oracle is also announcing support for RAPIDS鈩 open-source software introduced today by NVIDIA for executing end-to-end data science training pipelines accelerated on NVIDIA GPUs. RAPIDS will be available this week on Oracle Cloud Infrastructure via NGC.",
+      "source_file": "Oracle and NVIDIA Bring the Power o.txt",
+      "confidence": 0.7
+    },
+    {
+      "source": "oracle",
+      "target": "microsoft",
+      "date": "unknown",
+      "text": "Oracle today announced a collaboration with Microsoft to develop an integration blueprint to help manufacturers improve supply chain efficiency and responsiveness. The blueprint will enable organizations using Oracle Fusion Cloud Supply Chain & Manufacturing (SCM) to improve data-driven decision making and automate key supply chain processes by capturing live insights from factory equipment and sensors through Azure IoT Operations and Microsoft Fabric.",
+      "source_file": "Oracle Collaborates with Microsoft.txt",
+      "confidence": 0.7
+    },
+    {
+      "source": "microsoft",
+      "target": "oracle",
+      "date": "unknown",
+      "text": "Through our collaboration with Oracle, these insights can now be connected directly into Oracle Cloud SCM, enabling organizations to deliver tangible value across the entire supply chain by making faster, more informed decisions, improving operational efficiency, and responding immediately to changes on the shop floor.",
+      "source_file": "Oracle Collaborates with Microsoft.txt",
+      "confidence": 0.6
+    },
+    {
+      "source": "microsoft",
+      "target": "oracle",
+      "date": "unknown",
+      "text": "Oracle Database@Azure delivers the high performance of Oracle Exadata natively within Azure, empowering us to move our Oracle workloads to the cloud without compromise... With Oracle Database@Azure, customers can bring their Oracle data to Azure, where they can tap into Microsoft's comprehensive data and AI portfolio...",
+      "source_file": "Oracle Database@Azure Powers Cloud.txt",
+      "confidence": 0.9
+    },
+    {
+      "source": "oracle",
+      "target": "microsoft",
+      "date": "unknown",
+      "text": "Oracle Database@Azure delivers the high performance of Oracle Exadata natively within Azure, empowering us to move our Oracle workloads to the cloud without compromise... With Oracle Database@Azure, customers can bring their Oracle data to Azure, where they can tap into Microsoft's comprehensive data and AI portfolio...",
+      "source_file": "Oracle Database@Azure Powers Cloud.txt",
+      "confidence": 0.8
+    },
+    {
+      "source": "microsoft",
+      "target": "oracle",
+      "date": "unknown",
+      "text": "The Oracle Interconnect for Microsoft Azure combines Oracle Cloud Infrastructure FastConnect and Microsoft ExpressRoute to enable customers to deploy workloads across Oracle Cloud Infrastructure and Microsoft Azure regions.",
+      "source_file": "Oracle Interconnect for Microsoft A.txt",
+      "confidence": 0.8
+    },
+    {
+      "source": "oracle",
+      "target": "microsoft",
+      "date": "unknown",
+      "text": "The Oracle Interconnect for Microsoft Azure combines Oracle Cloud Infrastructure FastConnect and Microsoft ExpressRoute to enable customers to deploy workloads across Oracle Cloud Infrastructure and Microsoft Azure regions.",
+      "source_file": "Oracle Interconnect for Microsoft A.txt",
+      "confidence": 0.8
+    }
+  ]
+}
